@@ -12,28 +12,17 @@
                 Фотограф Олег Иванов
             </h1>
                 <div class="collapse navbar-collapse " style="text-align:center;" id="myNavbar">
-                   <!--  <ul class="nav navbar-nav ">
-
-                        <li><a href="/">Портфолио</a></li>
-                        <li><a href="/team">Команда</a></li>
-                        <li><a href="/services">Наши услуги</a></li>
-                        <li><a href="#">Прокат</a></li>
-                        <li><a href="/contacts">Контакты</a></li>
-                    </ul> -->
                     <nav class="links_container ">
                         <ul class="nav navbar-nav ">
-
                <li> <a class="links" href="#">Обо мне</a></li>
                <li> <a class="links" href="/team">Команда</a></li>
                <li> <a class="links" href="/services">Наши услуги</a></li>
               <li> <a class="links" href="#">Прокат</a></li>
                <li> <a class="links" href="/">Портфолио</a></li>
                 <li><a class="links" href="/contacts">Контакты</a></li>
-
                 </ul>
                 </nav>
                 </div>
-
             </div>
         </nav>
     </header>

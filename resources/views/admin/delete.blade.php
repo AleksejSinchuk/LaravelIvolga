@@ -15,7 +15,6 @@
         float: left; /* Обтекание справа */
         width: 20%; /* Ширина колонки */
         position: fixed; /* Make it stick/fixed */
-        top: 150px; /* Stay on top */
         transition: top 0.3s; /* Transition effect when sliding down (and up) */
     }
     .rightcol { /* Правая колонка */

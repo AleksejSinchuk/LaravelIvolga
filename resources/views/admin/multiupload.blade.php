@@ -11,12 +11,11 @@
             </div>
             <button class="btn btn-success" type="submit">Загрузка</button>
         </form>
-    </div>
+
     <br>
-    <div class="container">
-        <ul class="list-group">
+        <ul class="list-group ">
             @foreach($catalogs as $cat)
-                <li class="list-group-item list-group-item-dark ">{{$cat}}</li>
+                <li class="list-group-item list-group-item-dark" >{{$cat}}</li>
         @endforeach
         </ul>
     </div>
