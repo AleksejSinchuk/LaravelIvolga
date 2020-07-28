@@ -1,0 +1,138 @@
+
+ body{
+     background: #34c734;
+     min-width: 818px;
+
+ }
+/*=======================FONTS================================*/
+
+  @font-face {
+    font-family: "Lemon Tuesday";
+    src: url("fonts/lemon-tuesday.eot");
+    /* IE9 Compat Modes */
+    src: url("fonts/lemon-tuesday.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/lemon-tuesday.otf") format("opentype"), /* Open Type Font */
+    url("fonts/lemon-tuesday.svg") format("svg"), /* Legacy iOS */
+    url("fonts/lemon-tuesday.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/lemon-tuesday.woff") format("woff"), /* Modern Browsers */
+    url("fonts/lemon-tuesday.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*=======================HEADER================================*/
+
+.logo {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    font-family: "Lemon Tuesday";
+    font-weight: 100;
+    font-size: 40px;
+    color: #595959;
+}
+
+
+.links_container {
+    text-align: center;
+}
+
+.links {
+    padding: 0px 30px 0px 30px;
+    color: #787878;
+    text-decoration: none;
+    font-size: 23px;
+    transition: 0.3s;
+}
+.links a{
+     text-decoration: none;
+}
+.links:hover {
+    color: black;
+    text-decoration: none;
+}
+.catlinks{
+    text-decoration: none;
+}
+.catlinks:hover {
+    color: black;
+    text-decoration: none;
+}
+/*===================MAIN CONTENT=======================*/
+ .flex-container {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        -ms-box-orient: horizontal;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        Justify-content:center;
+    }
+
+
+    .wrap    {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .wrap li {
+
+    }
+
+    .wrap-reverse li {
+        background: deepskyblue;
+    }
+
+    .flex-item {
+        background: grey;
+        padding: 5px;
+        width: auto;
+        height: 400px;
+        margin: 10px;
+
+
+        line-height: 10px;
+        font-weight: bold;
+        font-size: 2em;
+
+
+    }
+
+    .name{
+        color: black;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    /*=======================FOTER===============================*/
+
+     footer {
+        background: #061D25;
+        padding: 10px 0;
+        text-align: center;
+    }
+    footer a {
+        color: #70726F;
+        font-size: 20px;
+        padding: 10px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+    }
+    footer a:first-child {
+        border-left: 1px solid #70726F;
+    }
+    footer a:hover {
+        color: blue;
+    }
+    /*==============================================================*/
+
+
+
+
