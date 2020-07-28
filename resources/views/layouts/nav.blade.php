@@ -9,7 +9,7 @@
                     </button>
                 </div>
                    <h1 class="logo">
-                Фотограф Анастасия Мирошниченко
+                Фотограф Олег Иванов
             </h1>
                 <div class="collapse navbar-collapse " style="text-align:center;" id="myNavbar">
                    <!--  <ul class="nav navbar-nav ">

@@ -15,7 +15,6 @@
 
 @endif
 
-<div style="width: 100%; height: auto;text-align: center"> <img src="public/logo.jpg" width="100%"> </div>
 <div style="text-align: center;color:white; font-size: 20px;" >Мои работы</div>
 <ul class="flex-container wrap">
     @for($i=0;$i<count($catalogs);$i++)
