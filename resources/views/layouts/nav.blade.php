@@ -14,7 +14,7 @@
                 <div class="collapse navbar-collapse " style="text-align:center;" id="myNavbar">
                     <nav class="links_container ">
                         <ul class="nav navbar-nav ">
-               <li> <a class="links" href="#">Обо мне</a></li>
+               <li> <a class="links" href="/about">Обо мне</a></li>
                <li> <a class="links" href="/team">Команда</a></li>
                <li> <a class="links" href="/services">Наши услуги</a></li>
               <li> <a class="links" href="#">Прокат</a></li>

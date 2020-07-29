@@ -6,6 +6,7 @@ Route::get('/','StudioController@studio');
 Route::get('/team',function (){ return view('team');});
 Route::get('/services',function (){ return view('services');});
 Route::get('/contacts',function (){ return view('contacts');});
+Route::get('/about',function (){ return view('about');});
 
 Route::post('/admin','AdminController@register');
 Route::get('/admin','AdminController@login');

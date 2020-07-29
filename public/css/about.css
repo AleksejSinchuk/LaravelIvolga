@@ -1,0 +1,54 @@
+@media only screen and (min-width: 300px) and (max-width: 425px) {
+    /*Мобильный*/
+    .rightcolumn{
+        width: 100%;
+        float: none;
+        font-size: 120%;
+    }
+    .leftcolumn img{
+        max-width: 100%;
+    }
+    .leftcolumn{
+        float: none;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1381px){
+
+    /*Перевернутый мобильный* или планшет*/
+
+    .leftcolumn {
+        width: 27%;
+        float: left;
+        background: blue;
+    }
+    .leftcolumn img{
+        max-width: 100%;
+    }
+
+    .rightcolumn {
+        width: 72%;
+        float: right;
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 1382px){
+    /*Десктоп с большими разрешениями, телевизоры.*/
+    .leftcolumn {
+        width: 27%; /* 270px / 1000px = 0,27 */
+        float: left;
+
+    }
+    .leftcolumn img{
+        max-width: 100%;
+    }
+
+    .rightcolumn {
+        width: 72%; /* 730px / 1000px = 0,73 */
+        float: right;
+        font-size: 150%;
+    }
+}
